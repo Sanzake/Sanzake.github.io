@@ -1,0 +1,15 @@
+.table {
+	border: thick solid black;
+	background-color: blue;
+	height: 800px;
+	text-align: center;
+}
+.cards {
+	border: solid black;
+	background-color: yellow;
+	height: 150px;
+	width: 75px;
+	display: inline-block;
+	margin: 100 50;
+	
+}
