@@ -10,9 +10,9 @@ var cardsScore = [];
 var dealerScoreArr = 0;
 var mybank = 10000;
 var imageArray = [
-	"Sanzake.github.io/images/cards/clubs/Ace.jpg",
-	"Sanzake.github.io/images/cards/clubs/Two.jpg",
-	"Sanzake.github.io/images/cards/clubs/Three.jpg",
+	"images/cards/clubs/Ace.jpg",
+	"images/cards/clubs/Two.jpg",
+	"images/cards/clubs/Three.jpg",
 	"Sanzake.github.io/images/cards/clubs/Four.jpg",
 	"Sanzake.github.io/images/cards/clubs/Five.jpg",
 	"Sanzake.github.io/images/cards/clubs/Six.jpg",
