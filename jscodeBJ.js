@@ -1,7 +1,7 @@
 var counter = 0;
 var step;
 var gamerScoreArrSum = 0;
-var cardback = ["images/cards/cardback.jpg"];   
+var cardback = ["Sanzake.github.io/images/cards/cardback.jpg"];   
 var cards = [];
 var click = 0;
 var gamerAce = 0;
