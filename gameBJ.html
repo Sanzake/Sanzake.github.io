@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<meta "charset=utf-8">
+		<title>BLACKJACK</title>
+		<link rel="stylesheet" href="stylesBJ.css">
+	</head>
+	<body>
+		<script src="jscodeBJ.js"></script>
+		<div class = "game">
+			<div class="buttons">
+				<div class="bankarea"> 
+					Ваш банк: <span id=bank></span> $
+				</div>
+				<input id="newdeck" value="Добавить шуз" onclick="newdeck(),newdeck(),newdeck(),newdeck()" type="button">
+				<input id="shuffle" value="Перемешать" onclick= "shuffle(cards, cardsScore)" type="button">
+				<div class="cardscounter"> 
+					Количество карт в колоде: <span id=cardscounter></span>
+				</div>
+			</div>
+			<div class="scoreCounter">
+				<span id="dealerScoreCounter"></span>
+			</div>
+			<div id="dealerTable" class="dealerTable">
+			</div>
+			<div class="scoreCounter">
+				<span id="gamerScoreCounter"></span>
+			</div>
+			<div id="gamerTable" class=gamerTable>
+			</div>
+			<div class="buttons">
+				Ваша ставка: <input id=rate maxlength="25" size="1" value="10" pattern="^[ 0-9]+$"> $  
+				<input id="newgame" value="Раздать" onclick="newgame()" type="button">
+				<input id="deal" value="Получить карту" onclick="deal()" type="button">
+				<input id="stand" value="Остановиться" onclick="stand()" type="button">
+			</div>
+		</div>
+	<body>
+</html>	

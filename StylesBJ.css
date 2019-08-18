@@ -1,15 +1,72 @@
-.table {
+body {
+	background: darkslategray url(images/money.gif);
+}
+.game {
+	height: 386px;
+	width: 800px;
 	border: thick solid black;
-	background-color: blue;
-	height: 800px;
+	position: absolute;
+	left: 50%;
+    margin-left: -400px;
+	top: 50%;
+    margin-top: -193px;
+}
+.dealerTable {
+	border: thick solid black;
+	background-color: DarkKhaki;
+	height: 155px;
+	text-align: left;
+}
+.gamerTable {
+	border: thick solid black;
+	background-color: DarkKhaki;
+	height: 155px;
+	text-align: left;
+}
+.card {
+	border: solid black;
+	height: 151px;
+	width: 80px;
+	display: inline-block;
+	margin: 0 30;
+}
+.buttons {
+	border: thick solid black;
+	background-color: Chocolate;
+	height: 22px;
 	text-align: center;
 }
-.cards {
-	border: solid black;
-	background-color: yellow;
-	height: 150px;
-	width: 75px;
+.cardscounter {
+	height: 22px;
 	display: inline-block;
-	margin: 100 50;
-	
+	position: absolute;
+	right: 20px;
+}
+.cardback {
+	border: solid black;
+	height: 151px;
+	width: 80px;
+	display: inline-block;
+	position: absolute;
+	left: 179;
+	top: 34;
+}
+.scoreCounter {
+	border: solid black;
+	background-color: Chocolate;
+	height: 50px;
+	width: 50px;
+	right: 50px;
+	display: inline-block;
+	position: absolute;
+	border-radius: 50%;
+	margin: 50 -30;
+	text-align: center;
+	font-size: 40;
+}
+.bankarea {
+	height: 22px;
+	display: inline-block;
+	position: absolute;
+	left: 20px;
 }
